@@ -1,11 +1,13 @@
+import processing.opengl.*;
+
 BufferedReader reader;
 String line;
 int i, x;
 
 void setup() {
+  size(screen.width, screen.height, OPENGL);
   frameRate(1000);
   background(0);
-  size(screen.width, screen.height);
   colorMode(HSB);
   smooth();
   noStroke();
