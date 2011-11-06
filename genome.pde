@@ -58,11 +58,11 @@ void draw() {
     }
     
     fill(c);//, 255, 255);
-    rect(x, i, 50, 10);
+    rect(x, i, 5, 10);
     i += random(10, 20);
     
     if (i > height) {
-      x += 55;
+      x += 10;
       i = 0;
     }
 
