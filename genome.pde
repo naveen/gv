@@ -5,7 +5,7 @@ String line;
 int i, x;
 
 void setup() {
-  size(screen.width, screen.height, OPENGL);
+  size(displayWidth, displayHeight, OPENGL);
   frameRate(1000);
   background(0);
   colorMode(HSB);
